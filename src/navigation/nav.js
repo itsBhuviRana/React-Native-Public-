@@ -1,14 +1,14 @@
 import { Text, View } from 'react-native'
 import React, { Component } from 'react'
 
-export class index extends Component {
+export class nav extends Component {
   render() {
     return (
       <View>
-        <Text>index</Text>
+        <Text>nav</Text>
       </View>
     )
   }
 }
 
-export default index
+export default nav
