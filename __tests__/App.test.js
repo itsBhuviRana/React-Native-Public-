@@ -12,7 +12,10 @@ import {test} from '@jest/globals';
 import renderer from 'react-test-renderer';
 
 test('renders correctly', () => {
-  const snapshot= renderer.create(<App />).toJSON;
+  const snapshot= renderer.create(<App />);
   console.log("abc",snapshot)
   expect(snapshot).toMatchSnapshot();
 });
+/**
+ * @format
+ */
